@@ -1,0 +1,30 @@
+{
+  "name": "lucid-hooks-race-conditions",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "yarn lint:raw .",
+    "lint:fix": "yarn lint:raw --fix .",
+    "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0 --ignore-path .gitignore --ignore-pattern '!.*.*'",
+    "build": "node ace build",
+    "start": "node ace serve --watch"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^2.0.0",
+    "adonis-preset-ts": "^1.0.4",
+    "eslint": "^6.8.0",
+    "eslint-config-lffg": "^19.0.0",
+    "pino-pretty": "^4.0.0",
+    "typescript": "^3.8.3",
+    "youch": "^2.0.10",
+    "youch-terminal": "^1.0.0"
+  },
+  "dependencies": {
+    "@adonisjs/ace": "^6.0.0",
+    "@adonisjs/core": "^5.0.0-preview-rc",
+    "@adonisjs/fold": "^6.0.0",
+    "proxy-addr": "^2.0.6",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.19"
+  }
+}

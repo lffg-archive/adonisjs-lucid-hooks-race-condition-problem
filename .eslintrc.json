@@ -1,0 +1,7 @@
+{
+  "extends": "lffg",
+  "rules": {
+    "require-await": "off",
+    "import/no-default-export": "off"
+  }
+}
